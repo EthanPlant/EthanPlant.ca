@@ -1,0 +1,22 @@
+# Zola build output
+/public/
+
+# Zola local serve / temp output
+/.tmp/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment/local config
+.env
+.env.*
+!.env.example
