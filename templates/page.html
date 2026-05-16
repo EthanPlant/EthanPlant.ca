@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block title %}{{ page.title }} · {{ config.title
+}}{% endblock title %} {% block description %}{{ page.description |
+default(value=config.description) }}{% endblock description %} {% block og_title
+%}{{ page.title }}{% endblock og_title %} {% block og_description %}{{
+page.description | default(value=config.description) }}{% endblock
+og_description %} {% block content %}
+<article>
+    <header class="article-header">
+        <h1>{{ page.title }}</h1>
+
+        <p class="metadata">
+            {% if page.date %}
+            <time datetime="{{ page.date }}"
+                >{{ page.date | date(format="%B %d, %Y") }}</time
+            >
+            {% endif %} {% if page.reading_time %} · {{ page.reading_time }} min
+            read {% endif %}
+        </p>
+    </header>
+
+    {{ page.content | safe }} {% if page.taxonomies.tags %}
+    <footer class="article-footer">
+        <p>
+            Tagged: {% for tag in page.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}"
+                >#{{ tag }}</a
+            >{% if not loop.last %}, {% endif %} {% endfor %}
+        </p>
+    </footer>
+    {% endif %}
+</article>
+{% endblock content %}

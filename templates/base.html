@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        <meta
+            name="description"
+            content="{% block description %}{{ config.description }}{% endblock description %}"
+        />
+
+        <link
+            rel="stylesheet"
+            href="{{ get_url(path='style.css', cachebust=true) }}"
+        />
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="RSS"
+            href="{{ get_url(path='rss.xml') }}"
+        />
+
+        <meta
+            property="og:title"
+            content="{% block og_title %}{{ config.title }}{% endblock og_title %}"
+        />
+        <meta
+            property="og:description"
+            content="{% block og_description %}{{ config.description }}{% endblock og_description %}"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="{{ current_url | default(value=config.base_url) }}"
+        />
+        <meta
+            property="og:image"
+            content="{{ get_url(path='images/profile.jpg') }}"
+        />
+
+        <meta
+            name="theme-color"
+            content="#f7f3eb"
+            media="(prefers-color-scheme: light)"
+        />
+        <meta
+            name="theme-color"
+            content="#111111"
+            media="(prefers-color-scheme: dark)"
+        />
+    </head>
+
+    <body>
+        <header class="site-header">
+            <a class="site-title" href="/">Ethan Plant</a>
+
+            <nav aria-label="Main navigation">
+                <a href="/writing/">Writing</a>
+                <a href="/notes/">Notes</a>
+                <a href="/projects/">Projects</a>
+                <a href="/about/">About</a>
+                <a href="/rss.xml">RSS</a>
+            </nav>
+        </header>
+
+        <main>{% block content %}{% endblock content %}</main>
+
+        <footer class="site-footer">
+            <p>No cookies. No trackers. Just writing.</p>
+            <p>
+                <a href="/colophon/">Colophon</a>
+                ·
+                <a href="/uses/">Uses</a>
+            </p>
+        </footer>
+    </body>
+</html>

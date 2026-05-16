@@ -1,16 +1,26 @@
-# The URL the site will be built for
 base_url = "https://ethanplant.ca"
+title = "Ethan Plant"
+default_language = "en_ca"
+author = "Ethan Plant"
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-[markdown]
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
+generate_robots_txt = true
+
+taxonomies = [
+    { name = "tags", feed = true }
+]
 
 [markdown.highlighting]
-theme = "catppuccin-mocha"
+light_theme = "catppuccin-latte"
+dark_theme = "catppuccin-macchiato"
 
 [extra]
-# Put all your custom variables here
+github = "https://github.com/EthanPlant"
+mastodon = "https://mastodon.social/@ethanplant"
+linkedin = "https://linkedin.com/in/ethanplant"

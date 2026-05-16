@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block content %}
+<section class="hero">
+    <img
+        class="profile"
+        src="/images/profile.png"
+        alt="Ethan Plant standing on a wooden boardwalk surrounded by greenery."
+    />
+
+    <div class="intro">
+        {{ section.content | safe }}
+
+        <p class="elsewhere">
+            <a href="/writing/">Writing</a>
+            <a href="/rss.xml">RSS</a>
+            <a href="{{ config.extra.github }}">GitHub</a>
+            <a rel="me" href="{{ config.extra.mastodon }}">Mastodon</a>
+            <a href="{{ config.extra.linkedin }}">LinkedIn</a>
+        </p>
+    </div>
+</section>
+
+<section class="recent">
+    <h2>Recent writing</h2>
+
+    {% set writing = get_section(path="writing/_index.md") %}
+    <ol class="post-list">
+        {% for page in writing.pages | slice(end=5) %}
+        <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+            {% if page.date %}
+            <time datetime="{{ page.date }}"
+                >{{ page.date | date(format="%B %Y") }}</time
+            >
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+{% endblock content %}
