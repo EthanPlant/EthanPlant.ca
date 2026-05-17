@@ -9,7 +9,7 @@ I’m a Canadian software engineer living in Vancouver.
 
 By day I work on cloud infrastructure, but this site isn't really about work. Outside of work, I write, build small things, tinker with Linux, drink coffee, go hiking when the weather cooperates, play board games with friends, and spend a probably unreasonable amount of time thinking about what computers are supposed to be for.
 
-A lot of my ideas comes back to a simple belief:
+A lot of my ideas come back to a simple belief:
 
 Computers should belong to the people using them.
 

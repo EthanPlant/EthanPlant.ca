@@ -15,7 +15,7 @@ It's one of those projects that sounds simple until you start building it. Then 
 
 A CPU. Memory. Timers. Interrupts. Graphics. Input. Audio. Cartridges. Weird hardware behaviours. Decades of games accidentally depending on details nobody would design the same way twice.
 
-That's what makes emulators interesting really interesting to me.
+That's what makes emulators really interesting to me.
 
 ## What it is
 

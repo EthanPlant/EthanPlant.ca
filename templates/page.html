@@ -10,16 +10,17 @@ og_description %} {% block content %}
 
         {% if page.description %}
         <p class="dek">{{ page.description }}</p>
-        {% endif %}
-
+        {% endif %} {% if page.date or page.reading_time %}
         <p class="metadata">
             {% if page.date %}
             <time datetime="{{ page.date }}"
                 >{{ page.date | date(format="%B %d, %Y") }}</time
             >
-            {% endif %} {% if page.reading_time %} · {{ page.reading_time }} min
-            read {% endif %}
+            {% endif %} {% if page.date and page.reading_time %} · {% endif %}
+            {% if page.reading_time %} {{ page.reading_time }} min read {% endif
+            %}
         </p>
+        {% endif %}
     </header>
 
     {{ page.content | safe }} {% if page.taxonomies.tags %}
