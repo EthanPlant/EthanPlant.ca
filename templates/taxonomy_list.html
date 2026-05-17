@@ -1,0 +1,19 @@
+{% extends "base.html" %} {% block title %}{{ taxonomy.name | title }} · {{
+config.title }}{% endblock title %} {% block content %}
+<section class="section-header">
+    <h1>{{ taxonomy.name | title }}</h1>
+    <p>All {{ taxonomy.name }} used on this site.</p>
+</section>
+
+<ul class="post-list">
+    {% for term in terms %}
+    <li>
+        <a href="{{ term.permalink }}">#{{ term.name }}</a>
+        <span
+            >{{ term.page_count }} {% if term.page_count == 1 %}post{% else
+            %}posts{% endif %}</span
+        >
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

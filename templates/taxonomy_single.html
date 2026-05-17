@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block title %}#{{ term.name }} · {{ config.title
+}}{% endblock title %} {% block content %}
+<section class="section-header">
+    <h1>#{{ term.name }}</h1>
+    <p>
+        {{ term.page_count }} {% if term.page_count == 1 %}post{% else %}posts{%
+        endif %} tagged with this.
+    </p>
+</section>
+
+<ul class="post-list">
+    {% for page in term.pages %}
+    <li>
+        <a href="{{ page.permalink }}">{{ page.title }}</a>
+        {% if page.date %}
+        <time datetime="{{ page.date }}"
+            >{{ page.date | date(format="%B %d, %Y") }}</time
+        >
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}
