@@ -42,6 +42,17 @@ body {
     line-height: 1.65;
 }
 
+article img,
+main figure img {
+    display: block;
+    width: auto;
+    max-width: min(100%, 900px);
+    height: auto;
+    margin-inline: auto;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+}
+
 a {
     color: var(--accent);
     text-decoration-thickness: 0.08em;
