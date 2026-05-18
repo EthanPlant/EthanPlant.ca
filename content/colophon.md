@@ -59,6 +59,10 @@ There is no ad network. There is no behavioural analytics script trying to turn 
 
 I may use basic privacy-friendly analytics to understand what people read, but I don't need a dossier on anyone visiting a personal website.
 
+Also, my own browser blocks the analytics script.
+
+That feels about right.
+
 No cookies. No trackers. Just writing.
 
 ## RSS
