@@ -44,3 +44,5 @@ A little messy. A little specific. Full of links, notes, projects, opinions, and
 That is what I want this site to be.
 
 A place for computers, history, software, archives, small tools, stray thoughts, and whatever else I keep caring about.
+
+If you want to reach me, email is best: [ethan@ethanplant.ca](mailto:ethan@ethanplant.ca). I read email, but I usually do not respond to unsolicited recruiting, sales, contract, or backlink requests.
