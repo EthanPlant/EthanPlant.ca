@@ -26,28 +26,28 @@ Bill C-22 is framed as lawful access legislation. I understand why that framing 
 
 My concern is not that police should never be able to obtain digital evidence. My concern is that Bill C-22 creates broad and technically risky obligations for electronic service providers, especially in Part 2, the proposed *Supporting Authorized Access to Information Act*.
 
-Modern secure systems are increasingly designed so that providers cannot access user content, encryption keys, logs, or other sensitive user data. End-to-end encryption, zero knowledge storage, no-logs services, and similar designs are not loopholes designed to protect criminals. They are basic security features.
+Modern secure systems are increasingly designed so that providers cannot access user content, encryption keys, logs, or other sensitive user data. End-to-end encryption, zero-knowledge storage, no-logs services, and similar designs are not loopholes designed to protect criminals. They are basic security features.
 
-The bill contains language saying providers are not provided to introduce a "systemic vulnerability". That safeguard is important, but it is not enough. A lawful access capability can weaken a system even if it is not described as a backdoor.
+The bill contains language saying providers are not required to introduce a "systemic vulnerability". That safeguard is important, but it is not enough. A lawful access capability can weaken a system even if it is not described as a backdoor.
 
 ## The Procedural Arc
-Before preparing the brief, I wrote to both my MP and the Prime Minister's Office about Bill C-22. I received a response from the PMO yesterday acknowledging the correspondence and confirmed my remarks were being shared with the Minister of Public Safety for information and consideration.
+Before preparing the brief, I wrote to both my MP and the Prime Minister's Office about Bill C-22. I received a response from the PMO yesterday acknowledging the correspondance and confirmed my remarks were being shared with the Minister of Public Safety for information and consideration.
 
 That response did not address the substance of my concerns. It was little more than a procedural acknowledgement, the government equivalent of an `HTTP 202 Accepted`. But it was still useful, because that's how public correspondance works. It's logged, routed, and becomes part of the official record around a bill.
 
 I then prepared a formal brief for the committee studying Bill C-22.
 
-In short, the submitted brief makes one preferred recommendation: Part 2 should be seperateed from Bill C-22 to be debated on and studied independently.
+In short, the submitted brief makes one preferred recommendation: Part 2 should be separated from Bill C-22 to be debated and studied independently.
 
 In the event Parliament is unwilling to do that, the brief recommends amendments to:
 - protect strong encryption and privacy-preserving architecture;
-- pelete the bulk metadata retention power;
+- delete the bulk metadata retention power;
 - narrow provider scope and technical capability obligations;
 - limit ministerial orders and require stronger review;
 - narrow assistance, secrecy, judicial review, and inspection powers;
-- prevent core privacy and cybersecurity terms from being redfined by regulation;
+- prevent core privacy and cybersecurity terms from being redefined by regulation;
 - strengthen annual reporting;
-- amend Part 1 to require stronger judicial authorization, higher thresholds, minimization, deletion, delated notice, and clearer challenge rights.
+- amend Part 1 to require stronger judicial authorization, higher thresholds, minimization, deletion, delayed notice, and clearer challenge rights.
 
 The point is not that lawful access should never exist. It is that lawful access legislation should not force insecure architecture into existence. 
 
