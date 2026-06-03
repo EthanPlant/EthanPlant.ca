@@ -1,13 +1,13 @@
 +++
-title = “Your Dropdown Has Offended British Columbia"
-description = “A small note about civil time, dropdown menus, and the dignity of Pacific Canada.”
-date = “2026-06-03”
+title = "Your Dropdown Has Offended British Columbia"
+description = "A small note about civil time, dropdown menus, and the dignity of Pacific Canada."
+date = "2026-06-03"
 
 [taxonomies]
-tags = [“indieweb”, “canada”]
+tags = ["indieweb", "canada"]
 +++
 
-I was trying to add my website to the Internet Phone Book, as one does, when I encountered the following option in the registration form:
+I was trying to add my website to the [Internet Phone Book](https://internetphonebook.net), as one does, when I encountered the following option in the registration form:
 
 (UTC-08:00) Pacific Time (US and Canada)
 
