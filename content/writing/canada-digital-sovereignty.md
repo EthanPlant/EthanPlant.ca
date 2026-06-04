@@ -76,7 +76,7 @@ It requires user trust. Digital sovereignty is meaningless if Canadians do not t
 And it requires credible domestic capacity. Sovereignty cannot just mean forcing foreign companies to comply. It has to mean building enough Canadian capability that there are real alternatives: cloud capacity, AI compute, cybersecurity talent, public-sector technical competence, privacy-preserving infrastructure, procurement discipline, and firms that can scale without being crushed by the very compliance burdens the government creates.
 ## Bill C-22: mistaking access for capability
 
-I've already [written a fair bit about Bill C-22](/writing/bill-c-22-is-a-mess), because frankly, I'm angry about it. The point here though is narrower: Bill C-22 is one example of a larger Canadian digital-policy failure. It shows Ottawa mistaking legal authority for safe technical capability.
+I've already [written a fair bit about Bill C-22](/writing/bill-c22-is-a-mess), because frankly, I'm angry about it. The point here though is narrower: Bill C-22 is one example of a larger Canadian digital-policy failure. It shows Ottawa mistaking legal authority for safe technical capability.
 
 The government’s stated goal is not necessarily absurd. Police and intelligence agencies do need lawful tools to investigate serious crime and threats to national security. Digital systems have changed how evidence is stored, transmitted, deleted, encrypted, and hidden. A country cannot simply pretend that the investigative environment of the 1990s still exists.
 
