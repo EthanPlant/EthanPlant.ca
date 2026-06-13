@@ -291,3 +291,19 @@ Bridger says it wants to build a better social app for friends.
 Good. Godspeed.
 
 Just please don't ask your users to build an OSINT dossier in a cute font.
+
+## Update: the beta now has a separate security-governance issue
+
+After this piece was written, Bridger’s Discord was placed in read-only mode following an announcement that there had allegedly been conversations about trying to find and exploit the beta code to make the project appear unsafe.
+
+I want to be clear about my own role here.
+
+My concerns are based on normal use of the beta, the user-facing onboarding and profile flow, and the app’s own UI around profile data, quizzes, and future matching or discovery. I did not attempt to exploit the beta, bypass access controls, probe the application, interfere with the project, or make Bridger appear unsafe. I also do not support anyone doing so.
+
+If anything, this reinforces the point.
+
+A product that collects sensitive personal information has to assume adversarial conditions. It has to assume some users will behave badly, some contributors may need limits, some people will poke at systems they should not touch, and some data will attract exactly the wrong kind of attention.
+
+That is why data minimization matters.
+
+The safest sensitive data is the data you never collect.
