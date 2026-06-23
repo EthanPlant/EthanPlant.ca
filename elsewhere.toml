@@ -13,9 +13,8 @@ template = """
 {first_paragraph}
 
 New essay: {title}
-{url}
+{url}"""
 
-{hashtags}"""
 
 [bluesky]
 max_chars = 300
