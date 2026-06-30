@@ -1,5 +1,3 @@
-Here’s the same file with inline links instead of footnotes.
-
 +++
 title = "The Black Market of Minecraft Servers"
 description = "The video game industry has discovered the black market of Minecraft servers."
