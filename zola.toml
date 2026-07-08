@@ -1,6 +1,6 @@
 base_url = "https://ethanplant.ca"
 title = "Ethan Plant"
-default_language = "en_ca"
+default_language = "en-ca"
 author = "Ethan Plant"
 
 compile_sass = false
