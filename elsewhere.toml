@@ -6,33 +6,3 @@ canonical_phrase = "Originally published on my website:"
 
 [zola]
 section_url_from_path = true
-
-[mastodon]
-max_chars = 500
-template = """
-{first_paragraph}
-
-New essay: {title}
-{url}"""
-
-
-[bluesky]
-max_chars = 300
-template = """
-New essay: {title}
-
-{description}
-
-{url}"""
-
-[substack]
-template = """
-# {title}
-
-_{description}_
-
-{body}
-
-{canonical_phrase}
-{url}"""
-
