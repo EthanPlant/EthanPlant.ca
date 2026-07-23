@@ -279,7 +279,7 @@ This is not a subtle contradiction. They aren't just using the technology they o
 
 No AI, powered by AI.
 
-## Addendum: The person behing the campaign also built the AI product
+## Addendum: The person behind the campaign also built the AI product
 
 Since publishing this piece, I found the connection I had been circling around. It is one person.
 
