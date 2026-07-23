@@ -305,8 +305,6 @@ His stated position is that datacentres should not be allowed to proceed without
 
 The contradiction belongs to the campaign he created. Stop the Datacentre has become infrastructure for groups whose politics go considerably beyond Tsergas' stated position. The campaign's own organizer form permits participants to select "I just hate AI" as one of their principal concerns. Its live monitor circulates material from explicitly anti-AI organizations. The broader movement has filled council chambers with chants of "Fuck AI."
 
-This is not a hidden personal betrayal. It is an unresolved institutional contradiction sitting directly inside the project.
-
 ### The campaign is also a demonstration
 
 There is another consequence. Stop the Datacentre now functions as a remarkably effective public demonstration of Radar’s underlying idea. A machine-learning news intelligence product needs to show that it can follow a fast-moving subject across fragmented sources, identify relevant developments, preserve continuity, and turn the results into a usable operational surface. Stop the Datacentre does exactly that.
