@@ -278,3 +278,57 @@ Stop the Datacentre is not merely a grassroots campaign that has touched AI. It 
 This is not a subtle contradiction. They aren't just using the technology they oppose, they appear to be helping launching it.
 
 No AI, powered by AI.
+
+## Addendum: The person behing the campaign also built the AI product
+
+Since publishing this piece, I found the connection I had been circling around. It is one person.
+
+Nick Tsergas appears to be the central technical organizer behind Stop the Datacentre. [The Breach](https://breachmedia.ca/inside-the-rising-country-wide-movement-against-ai-data-centres/) reports that the Hamilton campaign began after Tsergas found a blog post about the proposed development, contacted his councillor, and then built the website that became the campaign’s organizing infrastructure.
+
+This would already make Tsergas more than a participant. He built the machine. His [personal website](https://nicktsergas.ca/) then supplies the missing half of the story:
+
+> Nick is also the creator of Radar, a next-generation news intelligence platform that uses machine learning.
+
+Radar is not an unrelated consulting project buried somewhere in his employment history. His biography describes it as a machine-learning system intended to help journalists, researchers, policymakers, and the public understand fast-moving information environments. Newscube lists Radar as one of its current systems. It describes the product as a "live news intelligence surface" and says Newscube develops systems for tracking and interpreting public information environments.
+
+So the relationship is no longer an anti-AI campaign appears to use software connected to an AI startup. It is more accurately the person who built the national campaign website also created the machine-learning news intelligence product connected to the system powering it.
+
+Stop the Datacentre is not an activist organization that unknowingly bought a software subscription from an outside vendor. It is not a coalition that discovered six months later that one of its WordPress plugins had added a machine-learning feature. The machine-learning product and the campaign infrastructure appear to come from the same builder. The remaining uncertainty concerns the boundaries between the applications, not the nature of the connection.
+
+### This changes the hypocrisy argument
+
+There is an important complication. Tsergas himself does not publicly claim to oppose AI. In fact, he told The Breach the opposite:
+
+> I don’t have a problem with AI.
+
+His stated position is that datacentres should not be allowed to proceed without regulation, consultation, and enforceable limits. That means it would be inaccurate to accuse Tsergas personally of pretending to hate AI while secretly building an AI company. He is not pretending. He appears to be fairly open, at least on his personal site, about building a machine-learning news product. His objection is to unregulated datacentre development, not to artificial intelligence as a category.
+
+The contradiction belongs to the campaign he created. Stop the Datacentre has become infrastructure for groups whose politics go considerably beyond Tsergas' stated position. The campaign's own organizer form permits participants to select "I just hate AI" as one of their principal concerns. Its live monitor circulates material from explicitly anti-AI organizations. The broader movement has filled council chambers with chants of "Fuck AI."
+
+This is not a hidden personal betrayal. It is an unresolved institutional contradiction sitting directly inside the project.
+
+### The campaign is also a demonstration
+
+There is another consequence. Stop the Datacentre now functions as a remarkably effective public demonstration of Radar’s underlying idea. A machine-learning news intelligence product needs to show that it can follow a fast-moving subject across fragmented sources, identify relevant developments, preserve continuity, and turn the results into a usable operational surface. Stop the Datacentre does exactly that.
+
+I cannot establish from public evidence whether the campaign was deliberately created as a Radar case study, whether it is formally considered a Newscube deployment, or whether any campaign data is used to evaluate or improve the product. Those would require internal records. The practical result is visible regardless. The campaign built by Radar’s creator is demonstrating that his machine-learning intelligence system can be aimed at a national political issue. The anti-AI movement is helping prove the AI product works.
+
+### The disclosure problem is now worse
+
+"Powered by Wardroom" was already an incomplete explanation. It becomes more conspicuous once the personal connection is known. The campaign does not plainly say:
+
+> Stop the Datacentre was built by Nick Tsergas, creator of the machine-learning news platform Radar.
+
+It does not explain that Wardroom links into the same Newscube product family. It does not explain that the Live Monitor's automated classification is connected to technology built by the person operating the campaign platform. Instead, visitors receive the softest possible description: Wardroom is a civic-monitoring platform developed in Hamilton.
+
+That is technically correct. It is also carefully much less informative than the facts. There may be no commercial arrangement. Newscube may not yet be a formal company. Stop the Datacentre may pay nothing for the software. The whole operation may be one person, several domains, and an alarming quantity of caffeine. None of that eliminates the need to explain the relationship.
+
+The person collecting political organizer information, operating the campaign website, and developing the machine-learning intelligence product appears to be the same person. Readers should not have to reconstruct that through a personal biography, a product site, an "Other projects" link, public JSON, and DNS records.
+
+### No AI, powered by its creator's AI
+
+The original piece argued that Canada's anti-AI movement appeared to be powered by an AI startup. The evidence now supports a more precise formulation. Stop the Datacentre’s central website was built by Nick Tsergas. Nick Tsergas created Radar. Radar uses machine learning. Radar is presented by Newscube as a live news intelligence system. Stop the Datacentre says it is powered by Wardroom, while its own feed exposes an automated agent classifying public information.
+
+Tsergas does not personally claim to hate AI. He did, however, build infrastructure for a movement that does. The campaign is not merely powered by the technology it opposes. It was apparently built by the person developing that technology.
+
+That is considerably funnier. It is also the disclosure the footer leaves out.
