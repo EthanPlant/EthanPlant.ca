@@ -253,9 +253,9 @@ The answers may be completely benign. I expect they probably are. The classifier
 
 Just... say so. The problem is not that every unanswered question must conceal a scandal. The problem is that the existing public explanation conceals the obvious relationship.
 
-## The defence cannot be thjat the AI is good
+## The defence cannot be that the AI is good
 
-Perhaps thios is a good use of AI. I'd argue it probably is. Municipal politics produces an obscene quantity of fragmented information. Council agendas arrive as PDFs built by people with an ancestral grievance against text extraction. Public notices hide on inconsistent websites. Local reporting is split across newspapers, newsletters, social accounts, Reddit threads, and the personal website of whichever journalist has accepted that somebody must maintain a public record.
+Perhaps this is a good use of AI. I'd argue it probably is. Municipal politics produces an obscene quantity of fragmented information. Council agendas arrive as PDFs built by people with an ancestral grievance against text extraction. Public notices hide on inconsistent websites. Local reporting is split across newspapers, newsletters, social accounts, Reddit threads, and the personal website of whichever journalist has accepted that somebody must maintain a public record.
 
 A system that gathers this material and classifies it into useful issues could be genuinely valuable. I would probably use it. Hell I'd probably pay good money for it.
 
