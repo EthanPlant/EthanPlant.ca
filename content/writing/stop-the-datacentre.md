@@ -203,7 +203,7 @@ It is difficult to imagine a cleaner product demonstration. Wardroom shows the l
 
 ## This is not incidental use
 
-There is an obvious objection here. People can criticize technologies while using them. Climate organizers drive cars. Climate organizers drive cars. Privacy advocates own smartphones. People opposed to Amazon occasionally buy something from Amazon because they need a replacement dishwasher part by Thursday and society has made several unfortunate architectural decisions. Purity testing is not a serious political standard. 
+There is an obvious objection here. People can criticize technologies while using them. Climate organizers drive cars. Privacy advocates own smartphones. People opposed to Amazon occasionally buy something from Amazon because they need a replacement dishwasher part by Thursday and society has made several unfortunate architectural decisions. Purity testing is not a serious political standard. 
 
 That isn't what's happening here. This isn't incidental use. It's not unavoidable use. It's not a volunteer using Gmail because everyone already has Gmail. The campaign chose to build its public infrastructure around Wardroom. Wardroom points to Newscube. Newscube appears to be developing and productizing AI-powered intelligence systems. The campaign’s feed exposes the AI component directly. The relationship is not hidden in a vendor dependency six layers down, it's right there in the footer.
 
