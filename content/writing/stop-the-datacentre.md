@@ -57,7 +57,7 @@ That's all fine. People are allowed to oppose AI. There are very good reasons to
 
 ## Powered by Wardroom
 
-At the bottom of each Stop the Datacentre site is a short declaration:
+At the time of writing, the bottom of each Stop the Datacentre site contains a short declaration:
 
 > Stop the Datacentre 2026 • powered by Wardroom
 
@@ -330,3 +330,15 @@ The original piece argued that Canada's anti-AI movement appeared to be powered 
 Tsergas does not personally claim to hate AI. He did, however, build infrastructure for a movement that does. The campaign is not merely powered by the technology it opposes. It was apparently built by the person developing that technology.
 
 That is considerably funnier. It is also the disclosure the footer leaves out.
+
+## Update - July 24, 2026
+
+After this piece was published, the Stop the Datacentre sites removed both the "powered by Wardroom" attribution and the visible link to the public JSON feed from their footers.
+
+The JSON endpoint itself remains publicly accessible at the time of writing and continues to expose the classifier metadata described in this piece, including `classifier`, `rationale`, and `classified_at`.
+
+I cannot establish why the footer was changed, who made the change, or whether it was prompted by this article or my subsequent email to No AI Vancouver. The timing is notable, but timing is not proof of causation. 
+
+The relevant sections of this piece have also been updated to describe the attribution as it appeared when I inspected the sites.
+
+Removing the links does not answer the underlying questions about the relationship between Stop the Datacentre, Wardroom, Newscube, and Radar. It only makes that relationship less visible to an ordinary visitor.
