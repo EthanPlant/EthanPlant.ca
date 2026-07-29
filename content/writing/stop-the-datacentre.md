@@ -23,6 +23,15 @@ No AI. Powered by AI.
 """
 +++
 
+## Update -- July 28, 2026
+Since this article was published, Stop the Datacentre(s) has added a "[How This Works](https://stopthedatacentre.ca/how-this-works)" page to their site explaining that it is a "network of municipal campaigns using shared infrastructure" and identifies the use of machine learning. This directly addresses the central transparency concern raised in this article.
+
+I appreciate that the organizers took the concern seriously and made the relationship between the campaigns explicit. A network of local campaigns sharing infrastructure is a perfectly legitimate way to organize; my objection was that this arrangement was not previously disclosed clearly enough for a member of the public to understand it.
+
+The original article is preserved below as part of the public record. It documents what was publicly available at the time of publication, the conclusions that could reasonably be drawn from that information, and the uncertainty created by the absence of this disclosure. Readers should understand the article in light of the clarification now published.
+
+---
+
 [Stop the Datacentre](https://stopthedatacentre.ca/) is powered by AI.
 
 Not metaphorically. Not in the tedious sense that somebody involved may have asked ChatGPT to rewrite a newsletter or produce a tasteful illustration of a server rack menacing a duck pond.
